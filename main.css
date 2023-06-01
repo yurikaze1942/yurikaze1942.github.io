@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: rgb(255, 246, 207);
+    font-family: sans-serif;
+}
+
+header {
+    margin: 0px;
+    padding: 24px 28px;
+    height: calc(190vh*0.3046875);
+    /* width: calc(29vw*3.2820512820512820512820512820513); */
+    background-color: #000000;
+    background-image: url(./resource/stw_mustang_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+
+    text-shadow: 1px 1px 0 #ffffff,
+            -1px 1px 0 #ffffff,
+            1px -1px 0 #ffffff,
+            -1px -1px 0 #ffffff;
+}
+
+header h1
+{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#header_p_1
+{
+    font-weight: bold;
+}
+
+nav
+{
+    background-color: #5ae9ff;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    height: 3em;
+    /* margin: 1em; */
+    margin-top: 0px;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: center */
+}
+
+nav p
+{
+    display: inline-block;
+    /* background-color: #ffffff; */
+    font-size: 1.5em;
+    /* text-align: center; */
+    vertical-align: middle;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translate(10px, -50%)
+}
+
+a {
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover {
+    color: red;
+}
