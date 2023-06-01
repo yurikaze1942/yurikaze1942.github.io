@@ -64,6 +64,15 @@ nav p
     transform: translate(10px, -50%)
 }
 
+nav a
+{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 a {
     text-decoration: none;
     color: #000000
