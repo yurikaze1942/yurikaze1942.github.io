@@ -4,6 +4,7 @@ body
 {
     background-color: rgb(255, 246, 207);
     font-family: sans-serif;
+    font-size: 1.2em;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     height: calc(190vh*0.3046875);
     /* width: calc(29vw*3.2820512820512820512820512820513); */
     background-color: #000000;
-    background-image: url(./resource/stw_mustang_1.png);
+    background-image: url(./resource/1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -73,6 +74,18 @@ nav a
     padding-right: 5px;
 }
 
+#back_up{
+    display: inline-block;
+    /* background-color: #ffffff; */
+    font-size: 1.5em;
+    /* text-align: center; */
+    vertical-align: middle;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translate(calc(100vw - (1.5em * 5)), -50%)
+}
+
 a {
     text-decoration: none;
     color: #000000
@@ -80,4 +93,9 @@ a {
 
 a:hover {
     color: red;
+}
+
+img
+{
+    width: 60%;
 }
