@@ -1,0 +1,8 @@
+article a
+{
+    display: inline-block;
+    /* border-color: rgb(0, 136, 255); */
+    /* border-style: solid; */
+    padding-inline: 1em;
+    margin-bottom: 1em;
+}

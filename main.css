@@ -10,7 +10,7 @@ body
 header {
     margin: 0px;
     padding: 24px 28px;
-    height: calc(190vh*0.3046875);
+    height: calc(100vw*0.3046875);
     /* width: calc(29vw*3.2820512820512820512820512820513); */
     background-color: #000000;
     background-image: url(./resource/1.png);
@@ -97,5 +97,5 @@ a:hover {
 
 img
 {
-    width: 60%;
+    width: 70%;
 }
