@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ファイステークのwebサイト | ゲーム用ナンバープレート作成ツール</title>
+  </head>
+  <body>
+
+    <nav>
+      <p>
+        <a href="../index.html">Home</a>
+        <a href="../game/index.html">ゲーム</a>
+        <a href="../links/index.html">リンク集</a>
+    </p>
+    <p id="back_up"><a href="./../index.html">1つ上に戻る</a></p>
+    </nav>
+
+    <h1>ゲーム用ナンバープレート作成ツール</h1>
+
+    地域 <select id="AreaDD"></select>
+    場所 <select id="LocationDD"></select>
+    <br>
+    <br>
+
+    分類番号 (上の数字2,3桁)<br>
+    <select id="Type1"></select>
+    <select id="Type2"></select>
+    <select id="Type3"></select>
+    <br>
+    <br>
+
+    文字
+    <select id="Char1"></select>
+    <select id="Char2"></select>
+    <br>
+    <br>
+
+    一連指定番号 (下の数字4桁)<br>
+    <select id="Number1"></select>
+    <select id="Number2"></select>
+    <select id="Number3"></select>
+    <select id="Number4"></select>
+    <br>
+    <br>
+    封印
+    <select id="Seal1"></select>
+    <select id="Seal2"></select>
+    <br>
+    <br>
+    ハイフン(真ん中の棒)を取る<input type="checkbox" id="Hyphen"><br>
+    ネジ<input type="checkbox" id="Bolt">
+    <br>
+    <br>
+    <br>
+    <input type="button" value="作成" id="Create">
+
+
+
+
+    <script src="resource/List/Location.js"></script>
+    <script src="resource/List/Char.js"></script>
+    <script src="resource/List/Seal.js"></script>
+
+    <script src="Functions.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
