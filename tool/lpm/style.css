@@ -1,0 +1,22 @@
+#mainContents
+{
+    position: relative;
+    left: 5%;
+}
+
+img
+{
+    width: 40%;
+}
+
+#DownloadResult
+{
+    font-weight: bold;
+    color: rgb(38, 128, 255);
+    text-decoration: underline;
+}
+
+#tos
+{
+    font-size: 0.8em;
+}
