@@ -1,8 +1,8 @@
 var BoltList = 
 {
     "無し":"non",
-    "ネジ1":"Bolt1",
-    "ネジ2":"Bolt2",
+    "ネジ1":"bolt1",
+    "ネジ2":"bolt2",
 }
 
 var PlateList = 
