@@ -8,5 +8,6 @@ var BoltList =
 var PlateList = 
 {
     "無し":"non",
-    "プレート1":"base2",
+    "プレート1":"base1",
+    "プレート2":"base2",
 }
