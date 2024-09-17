@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="style.css">
+  <title>ファイステークのwebサイト | Discordの時間表示するやつを作るやつ</title>
+  <link rel="icon" href="/resource/favicon.ico">
+</head>
+
+<body>
+
+  <nav>
+    <p>
+        <a href="/index.html">Home</a>
+        <a href="/game/index.html">ゲーム</a>
+        <a href="/tool/index.html">ツール</a>
+        <a href="/links/index.html">リンク集</a>
+    </p>
+    <p id="back_up"><a href="./../index.html">1つ上に戻る</a></p>
+  </nav>
+
+  <div id="mainContents">
+
+    <br>
+    表示形式 <b>2024年 6月 12日 21時 34分 36秒</b>の場合<br>
+    <select id="list_DisplayFormat"></select><br><br>
+    
+    時刻 <input type="datetime-local" type="datetime-local" id="input_time"><br><br><br>
+
+    <input type="button" value="作成" id="create"><br><br>
+
+    <input type="text" id="result" readonly/><br>
+    <input type="button" value="コピー" id="copy">
+    <br><br>
+  </div>
+
+  <article>
+    <hr>
+    <h2>説明的な</h2>
+    <p>
+      Discordで時間を表示するやつを自動で作るやつです。<br>
+      まず表示形式を選択し、次に日付や時間を指定します。<br>
+      そして作成を押すと何か文字列が出てきます。それをDiscordにメッセージとともに貼って投稿すれば完成です。<br>
+      これで表示してる日付や時間などは、見てる人の場所によって自動で時差などを考慮して表示されます。<br>
+      なので、日本人がこれを使って時間をDiscordに投稿しても、時差8時間のイギリスではちゃんと8時間前の時間で表示されます。<br>
+    </p>
+  </article>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
