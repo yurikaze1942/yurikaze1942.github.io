@@ -1,0 +1,17 @@
+#mainContents {
+    position: relative;
+    left: 5%;
+    width: 90%;
+}
+
+label {
+    display: inline-block;
+    width: 8em;
+    vertical-align: top;
+}
+
+#mainContents div
+{
+    padding: 16px;
+    outline: 10px inset rgba(0, 0, 0, 0.6);
+}

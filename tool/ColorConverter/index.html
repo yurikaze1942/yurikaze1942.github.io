@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="style.css">
+  <title>色変換ツール | ファイステークのwebサイト</title>
+  <link rel="icon" href="/resource/favicon.ico">
+</head>
+
+<body>
+
+  <nav>
+    <p>
+      <a href="/index.html">Home</a>
+      <a href="/game/index.html">ゲーム</a>
+      <a href="/tool/index.html">ツール</a>
+      <a href="/links/index.html">リンク集</a>
+    </p>
+    <p id="back_up"><a href="./../index.html">1つ上に戻る</a></p>
+  </nav>
+  <h1>色変換ツール</h1>
+  <div id="mainContents">
+    <div>
+      <b>0-1</b><br>
+      例: (0.215, 0.482, 0.843)<br>
+      <label>R: </label><input type="number" min="0" max="1" step="0.001" id="r1"></label><br>
+      <label>G: </label><input type="number" min="0" max="1" step="0.001" id="g1"></label><br>
+      <label>B: </label><input type="number" min="0" max="1" step="0.001" id="b1"></label><br>
+      <input type="button" value="変換" id="_1">
+    </div>
+    <br>
+    <div>
+      <b>0-255</b><br>
+      例: (55, 123, 215)<br>
+      <label>R: </label><input type="number" min="0" max="255" step="1" id="r255"></label><br>
+      <label>G: </label><input type="number" min="0" max="255" step="1" id="g255"></label><br>
+      <label>B: </label><input type="number" min="0" max="255" step="1" id="b255"></label><br>
+      <input type="button" value="変換" id="_255">
+    </div>
+    <br>
+    <div>
+      <b>16進数</b><br>
+      例: #377BD7<br>
+      <label>カラーコード: </label><input type="text" id="_16str"></label><br>
+      <input type="button" value="変換" id="_16">
+    </div>
+    <br>
+    <div>
+      <b>カラーピッカー</b><br>
+      <label>色: </label><input type="color" id="_cpick"></label><br>
+      <input type="button" value="変換" id="_cp">
+    </div>
+    <br><br>
+  </div>
+
+  <article>
+    <hr>
+    <h2>説明的な</h2>
+    <p>
+      RGBの数値を変換するやつです。<br>
+      0-1, 0-255, 16進数コードの3つを相互に変換できます。<br>
+    </p>
+  </article>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
