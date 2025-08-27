@@ -96,7 +96,10 @@ function _1t255(_r, _g, _b)
 
 function _255t16(_r, _g, _b)
 {
-    return "#" + (_r.toString(16) + _g.toString(16) + _b.toString(16)).toUpperCase();
+    let rs = ("00" + _r.toString(16)).slice(-2)
+    let gs = ("00" + _g.toString(16)).slice(-2)
+    let bs = ("00" + _b.toString(16)).slice(-2)
+    return "#" + (rs + gs + bs).toUpperCase();
 }
 
 function _255t1(_r, _g, _b)
